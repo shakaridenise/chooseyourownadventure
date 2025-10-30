@@ -5,15 +5,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Adventure Begins</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    /* local styles so the image looks good on index without changing style.css */
+    .photo { max-width: 900px; margin: 0 auto; display: block; box-shadow: 0 6px 24px rgba(0,0,0,0.15); border-radius: 6px; }
+    figure { text-align: center; margin: 1rem 0; }
+    figcaption { margin-top: .5rem; color: #444; font-size: .95rem; }
+  </style>
 </head>
 <body>
   <h1>Welcome to the Adventure!</h1>
   <p>You stand at the edge of a mysterious forest. A dark cave lies nearby. Where will you go?</p>
 
-  <p class="attribution">"<a rel="noopener noreferrer" href="https://www.flickr.com/photos/22480788@N08/3746176804">Forest.</a>" by <a rel="noopener noreferrer" href="https://www.flickr.com/photos/22480788@N08">eldh</a> is licensed under <a rel="noopener noreferrer" href="https://creativecommons.org/licenses/by/2.0/?ref=openverse">CC BY 2.0 <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="height: 1em; margin-right: 0.125em; display: inline;" /><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="height: 1em; margin-right: 0.125em; display: inline;" /></a>.</p>
+  <main>
+    <figure>
+      <!-- Put your photo at images/forest.jpg in the repo (or use the provided SVG as a test) -->
+      <img src="images/forest.jpg"
+           alt="Sunlight streaming through trees in a green forest"
+           class="photo" />
+      <figcaption>Forest — sunlight through the trees</figcaption>
+    </figure>
+  </main>
+
+  <p class="attribution">"<a rel="noopener noreferrer" href="https://www.flickr.com/photos/22480788@N08/3746176804">Forest.</a>" by <a rel="noopener noreferrer" href="https://www.flickr.com/photos/22480788@N08">Photographer</a></p>
 
   <a href="forest.html">Enter the Forest 🌲</a><br>
   <a href="cave.html">Explore the Cave 🕳️</a>
-  <!-- updated: 2025-10-30T14:27:32Z -->
+  <!-- updated: 2025-10-30T17:28:01Z -->
 </body>
 </html>
